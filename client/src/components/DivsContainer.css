@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.DivContainer{
+    background-color: #acc;
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-top: 80px;
+}

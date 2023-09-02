@@ -16,7 +16,7 @@ ItemList.propTypes = {
 
 ItemList.defaultProps ={
     marca: 'Null',
-    ano_lancamento: 'NaN',
+    ano_lancamento: 0,
     cor: 'Invalid' 
 }
 
