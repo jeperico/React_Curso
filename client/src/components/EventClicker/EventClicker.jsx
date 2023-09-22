@@ -1,4 +1,5 @@
 import '../DivsContainer.css'
+import Button from './Button'
 
 function EventClicker(){
 
@@ -9,7 +10,7 @@ function EventClicker(){
     return(
         <div className="DivContainer">
             <p>Clique para disparar um evento</p>
-            <button onClick={meuEvento}>Ativar</button>
+            <Button text="Primeiro Evento" event={meuEvento} />
         </div>
     )
 }
