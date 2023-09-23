@@ -14,7 +14,7 @@ function Form(){
 
     return(
         <div className="DivContainer">
-            <h1>Formulário</h1>
+            <h2>Formulário</h2>
             <form onSubmit={cadastrarUsuario}>
                 <div>
                     <label htmlFor="name">Nome: </label>
