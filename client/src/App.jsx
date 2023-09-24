@@ -6,6 +6,7 @@ import EventClicker from './components/EventClicker/EventClicker';
 import Form from './components/EventClicker/Form';
 import Conditional from './components/Conditional/Conditional';
 import Conditional2 from './components/Conditional/Conditional2';
+import StateLift from './components/StateLift/StateLift';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Form />
       <Conditional />
       <Conditional2 />
+      <StateLift />
     </div>
   );
 }

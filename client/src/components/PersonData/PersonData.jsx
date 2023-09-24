@@ -3,7 +3,7 @@ import './PersonData.css'
 function PersonData({ foto, nome, idade, profissao, email, cpf }){
 
     return(
-        <div id="dataContainer">
+        <div id="listContainer">
             <img src={foto} alt={nome} id='foto'/>
             <p><strong>Nome:</strong> {nome}.</p>
             <p><strong>Idade:</strong> {idade}. </p>
